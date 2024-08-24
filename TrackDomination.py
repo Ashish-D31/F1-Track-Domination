@@ -9,8 +9,7 @@ from matplotlib.lines import Line2D
 st.title('F1 Telemetry Data Visualization')
 st.sidebar.header('Select Options')
 
-#f1.Cache.enable_cache('Cache') #Uncomment this line of code to enable caching of race data for faster loading
-
+#f1.Cache.enable_cache('Cache') #To Enable Caching, Make a folder named "Cache" in the repositoriy's directory and Uncomment this line of code
 year = st.sidebar.number_input('Select Year', min_value=1950, max_value=2024, value=2024)
 gp = st.sidebar.text_input('Enter Grand Prix Name', 'Bahrain')
 session_type = st.sidebar.selectbox('Session Type', ['Q','R', 'FP1', 'FP2', 'FP3'])
