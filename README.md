@@ -1,3 +1,4 @@
+![App Image](https://github.com/Ashish-D31/F1-Track-Domination/blob/92a66fe7710d8a77b38fac61226e36bb86b1a630/Images/App%20Image.png?raw=True)
 # Overview
 The F1 Telemetry Data Visualization project is a Streamlit-based web application designed to offer an interactive and visually engaging analysis of Formula 1 race telemetry data. This tool allows users to compare the performance of two drivers during a selected Grand Prix session, providing insights into how each driver performs across different sections of the track.
 
